@@ -1,8 +1,8 @@
 {
-  "name": "nalichat",
+  "name": "milachat",
   "version": "1.0.0",
   "private": true,
-  "description": "Static clone of nalichat.site",
+  "description": "Static clone of milachat.site",
   "scripts": {
     "start": "npx --yes serve -l 3000"
   }

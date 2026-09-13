@@ -1,4 +1,4 @@
-const CACHE_NAME = "nalichat-pwa-v1";
+const CACHE_NAME = "milachat-pwa-v1";
 
 self.addEventListener("install", function (event) {
   self.skipWaiting();

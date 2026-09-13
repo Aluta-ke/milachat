@@ -75,15 +75,15 @@
     root.id = ROOT_ID;
     root.className = "nc-pwa";
     root.setAttribute("role", "dialog");
-    root.setAttribute("aria-label", "Install NaliChat");
+    root.setAttribute("aria-label", "Install MilaChat");
     if (ios) root.setAttribute("data-ios", "true");
 
     root.innerHTML =
       '<div class="nc-pwa-card">' +
-        '<img class="nc-pwa-logo" src="/favicon-192.png" width="32" height="32" alt="NaliChat">' +
-        '<p class="nc-pwa-title">Install NaliChat</p>' +
+        '<img class="nc-pwa-logo" src="/favicon-192.png" width="32" height="32" alt="MilaChat">' +
+        '<p class="nc-pwa-title">Install MilaChat</p>' +
         '<p class="nc-pwa-sub">Android • iPhone</p>' +
-        '<p class="nc-pwa-ios">To install NaliChat:<br>Tap Share → Add to Home Screen</p>' +
+        '<p class="nc-pwa-ios">To install MilaChat:<br>Tap Share → Add to Home Screen</p>' +
         '<button type="button" class="nc-pwa-install">Install</button>' +
       "</div>";
 

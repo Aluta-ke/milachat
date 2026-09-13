@@ -78,7 +78,7 @@ async function updateLogo(inputFile, outputFile) {
   ctx.fillStyle = '#000000';
   ctx.textBaseline = 'middle';
   ctx.textAlign = 'left';
-  ctx.fillText('Nalichat', 384, 536);
+  ctx.fillText('MilaChat', 384, 536);
 
   const output = canvas.toBuffer('image/png');
   const webp = await sharp(output).webp({ quality: 92 }).toBuffer();

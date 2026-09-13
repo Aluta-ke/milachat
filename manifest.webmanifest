@@ -1,7 +1,7 @@
 {
-  "name": "NaliChat",
-  "short_name": "NaliChat",
-  "description": "NaliChat — Get paid to chat with foreigners. Install NaliChat for fast access.",
+  "name": "MilaChat",
+  "short_name": "MilaChat",
+  "description": "MilaChat — Get paid to chat with foreigners. Install MilaChat for fast access.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
