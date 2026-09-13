@@ -80,8 +80,8 @@
 
     root.innerHTML =
       '<div class="nc-pwa-card">' +
-        '<img class="nc-pwa-logo" src="/favicon-192.png" width="32" height="32" alt="MilaChat">' +
-        '<p class="nc-pwa-title">Install MilaChat</p>' +
+        '<img class="nc-pwa-logo" src="/favicon-192.png?v=milachat" width="32" height="32" alt="MilaChat">' +
+        '<p class="nc-pwa-title">MilaChat</p>' +
         '<p class="nc-pwa-sub">Android • iPhone</p>' +
         '<p class="nc-pwa-ios">To install MilaChat:<br>Tap Share → Add to Home Screen</p>' +
         '<button type="button" class="nc-pwa-install">Install</button>' +
