@@ -1,7 +1,7 @@
 {
-  "name": "MilaChat",
-  "short_name": "MilaChat",
-  "description": "MilaChat — Get paid to chat with foreigners. Install MilaChat for fast access.",
+  "name": "LipaHub",
+  "short_name": "LipaHub",
+  "description": "LipaHub — Get paid to chat with foreigners. Install LipaHub for fast access.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
