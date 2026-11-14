@@ -129,7 +129,7 @@ async function updateLogo(inputFile) {
   let fontSize = Math.round((textMaxY - textMinY) * 0.92);
   ctx.textBaseline = 'middle';
   ctx.textAlign = 'left';
-  const label = 'LipaHub.online';
+  const label = 'MilaChat.site';
   let nameWidth = 0;
   while (fontSize > 20) {
     ctx.font = `bold ${fontSize}px Arial, Helvetica, sans-serif`;
@@ -139,11 +139,11 @@ async function updateLogo(inputFile) {
   }
 
   const startX = centerX - nameWidth / 2;
-  const name = 'LipaHub';
+  const name = 'MilaChat';
   ctx.fillStyle = '#000000';
   ctx.fillText(name, startX, centerY);
   ctx.fillStyle = orangeCss;
-  ctx.fillText('.online', startX + ctx.measureText(name).width, centerY);
+  ctx.fillText('.site', startX + ctx.measureText(name).width, centerY);
 
   return canvas.toBuffer('image/png');
 }

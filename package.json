@@ -1,8 +1,8 @@
 {
-  "name": "lipahub",
+  "name": "milachat",
   "version": "1.0.0",
   "private": true,
-  "description": "Static clone of lipahub.online",
+  "description": "Static clone of milachat.site",
   "scripts": {
     "start": "npx --yes serve -l 3000"
   }
